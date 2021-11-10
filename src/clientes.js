@@ -14,7 +14,7 @@ class Cliente {
       (this._impuesto.monto_bruto_anual - this._impuesto.deducciones) * 0.21;
 
     return {
-      texto: `el monto de deduccion es: ${valor}`,
+      texto: `El impuesto a pagar por ${this.nombre} es: ${valor}`,
       value: valor,
     };
   }
